@@ -15,8 +15,8 @@ class JConfig {
 	var $gzip = '1';
 	var $error_reporting = '-1';
 	var $xmlrpc_server = '1';
-	var $log_path = '/etc/home/akuazukc/enio-minsk.com/var/www/advertmaster/data/www/enio-minsk.com/logs';
-	var $tmp_path = '/etc/home/akuazukc/enio-minsk.com/var/www/advertmaster/data/www/enio-minsk.com/tmp';
+	var $log_path = '/home/akuazukc/enio-minsk.com/var/www/advertmaster/data/www/enio-minsk.com/logs';
+	var $tmp_path = '/home/akuazukc/enio-minsk.com/var/www/advertmaster/data/www/enio-minsk.com/tmp';
 	var $live_site = '';
 	var $force_ssl = '0';
 	var $offset = '2';
