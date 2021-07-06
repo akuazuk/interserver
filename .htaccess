@@ -1,5 +1,5 @@
 
-#folders of site  activate when they is not working
+#Fix folders of site  activate when they is not working
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 RewriteBase /
