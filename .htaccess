@@ -7,7 +7,8 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
-
+#error_log turn off
+php_flag log_errors Off
 php_flag display_startup_errors off
 php_flag display_errors off
 php_flag html_errors off

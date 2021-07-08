@@ -1,5 +1,6 @@
 <?php
 class JConfig {
+    
 	var $offline = '0';
 	var $editor = 'none';
 	var $list_limit = '20';
